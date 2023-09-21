@@ -48,5 +48,5 @@ app.use("/api/events", require("./Routes/events"));
 */
 
 app.listen(process.env.PORT, () => {
-    console.log("SERVER RUN ON PORT 4000");
+    console.log(`SERVER RUN ON PORT ${process.env.PORT}`);
 });
